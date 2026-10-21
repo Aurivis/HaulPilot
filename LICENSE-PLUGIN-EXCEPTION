@@ -1,0 +1,60 @@
+HaulPilot Plugin Exception, version 1.0
+Copyright (c) 2026 HaulPilot Authors
+
+This exception is an additional permission under section 7 of the GNU
+General Public License, version 3 ("GPL"). It applies to every file of
+HaulPilot that carries the notice
+
+    SPDX-License-Identifier: GPL-3.0-or-later WITH AdditionRef-HaulPilot-plugin-exception
+
+
+1. Definitions
+
+"HaulPilot" means the program built from the files covered by this
+exception, in source or object form.
+
+"Plugin API" means the programming interface defined by the header files
+in the directory "sdk/include" of the HaulPilot source code. These header
+files are published under the MIT License and are not covered by the GPL.
+
+"Plugin" means a separate work that HaulPilot loads at run time, such as
+a dynamic-link library, and that
+
+  a) exchanges data and calls with HaulPilot only through the Plugin API,
+     and
+  b) contains no part of HaulPilot and is not based on HaulPilot, apart
+     from material taken from the Plugin API header files.
+
+
+2. Plugins
+
+You may combine HaulPilot with Plugins and convey the combination without
+the Plugins becoming subject to the GPL. Each Plugin may be conveyed under
+terms chosen by its author, including terms that do not make its source
+code available.
+
+
+3. Game plugin
+
+HaulPilot includes a plugin that runs inside the games Euro Truck
+Simulator 2 and American Truck Simulator by SCS Software. You may link
+that plugin with these games and with the header files of the SCS
+Software SDK, and convey it for use with them, although the games and the
+SDK are not licensed under the GPL.
+
+
+4. Limits
+
+This exception does not allow you to convey HaulPilot, a modified version
+of HaulPilot, or any other work that contains or is based on HaulPilot
+code other than the Plugin API header files, under terms other than the
+GPL with this exception.
+
+
+5. Modified versions
+
+If you modify HaulPilot, you may extend this exception to your version,
+but you are not obliged to do so. If you do not wish to, delete this
+exception from your version and remove
+"WITH AdditionRef-HaulPilot-plugin-exception" from the notices in your
+files.
